@@ -2,6 +2,10 @@
 
 ### Vendas de Packs
 
+<style>
+    a { text-decoration: none; }
+</style>
+
 <a href="https://josimarmg.github.io/packpriv/index.html" target="_blank" rel="noopener noreferrer">
 Inicio
 </a>
