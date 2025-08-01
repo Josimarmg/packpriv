@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagamento-styles.css">
+    <title>Pagamento via Pix - PackPriv</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento via Pix</h1>
+        <p>Copie o código abaixo e cole no seu app bancário:</p>
+        <div class="pix-code" id="pixCode">00020126360014BR.GOV.BCB.PIX0114packpriv.store@gmail.com5204000053039865802BR5924NOME DA LOJA LTDA6011CIDADE62070503***6304ABCD</div>
+        <button onclick="copyPix()">📋 Copiar Código Pix</button>
+
+        <h2>Ou escaneie o QR Code abaixo:</h2>
+        <img src="img/qrcode-pix.png" alt="QR Code Pix">
+    </div>
+
+    <script>
+        function copyPix() {
+            const pixText = document.getElementById("pixCode").innerText;
+            navigator.clipboard.writeText(pixText).then(() => {
+                alert("Código Pix copiado com sucesso!");
+            }).catch(err => {
+                alert("Erro ao copiar: " + err);
+            });
+        }
+    </script>
+</body>
+</html>
