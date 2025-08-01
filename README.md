@@ -10,4 +10,6 @@ Inicio
 Página de Pagamento
 </a>
 <br>
+<a href="https://josimarmg.github.io/packpriv/tabela_preco.html" target="_blank" rel="noopener noreferrer">
 Tabela de Preços
+</a>
