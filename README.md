@@ -10,4 +10,4 @@ Inicio
 Página de Pagamento
 </a>
 <br>
-Tabela de Preços
+[Tabela de Preços](https://www.google.com)
